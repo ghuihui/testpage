@@ -1,4 +1,4 @@
-dataLayer.push({
+dataLayer.push(
     {
         "0": "event",
         "1": "page_view",
@@ -13,5 +13,5 @@ dataLayer.push({
             "ignore_referrer": "true"
         }
     }
-});
+);
 
