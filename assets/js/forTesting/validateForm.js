@@ -6,7 +6,7 @@ function validateForm(form) {
     var test_checkBox = form.elements['demo-human'].checked
 
     if (test_name == "" && test_email == "" && test_dropDown == "" & !(test_radioButton) && !(test_checkBox)) {
-      alert("Name must be filled out");
+      alert("Fill out required fields!");
       return false;
     } else {
         return true;
