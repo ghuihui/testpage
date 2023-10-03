@@ -47,7 +47,7 @@
                         <!-- Form A-->
                             <h2>Form A</h2>
 
-                            <form method="post" action="#">
+                            <form id="formA" method="post" action="#" onsubmit="return validateForm()">
                                 <div class="row gtr-uniform">
                                     <div class="col-6 col-12-xsmall">
                                         <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
@@ -59,10 +59,10 @@
                                     <div class="col-12">
                                         <select name="demo-category" id="demo-category">
                                             <option value="">- Category -</option>
-                                            <option value="1">Manufacturing</option>
-                                            <option value="1">Shipping</option>
-                                            <option value="1">Administration</option>
-                                            <option value="1">Human Resources</option>
+                                            <option value="1">Category 1</option>
+                                            <option value="2">Category 2</option>
+                                            <option value="3">Category 3</option>
+                                            <option value="4">Category 4</option>
                                         </select>
                                     </div>
                                     <!-- Break -->
@@ -167,5 +167,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+        <!-- Scripts for Testing -->
+            <script src="assets/js/forTesting/validateForm.js"></script>
 	</body>
 </html>
