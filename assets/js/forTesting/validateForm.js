@@ -3,7 +3,7 @@ function validateForm(form) {
     var test_email = form.elements['demo-email'].value;
     var test_category = form.elements['demo-category'].value;
 
-    if (name == "") {
+    if (test_name == "") {
       alert("Name must be filled out");
       return false;
     } else {
