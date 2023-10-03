@@ -39,15 +39,39 @@ dataLayer.push(
             "transaction_id": "5340655878402",
             "tax": "80",
             "shipping": "0",
-            "value": "880",
+            "value": "9080",
             "items": [
                 {
-                    "item_id": "WTN-14",
-                    "item_name": "3Dホワイトニングシート 14回分 - 14回分",
+                    "item_id": "001",
+                    "item_name": "itemA",
                     "quantity": "1",
                     "price": "880",
-                    "item_brand": "Lucille オンラインストア",
-                    "item_variant": "14回分"
+                    "item_brand": "brandA",
+                    "item_variant": "varA"
+                },
+                {
+                    "item_id": "002",
+                    "item_name": "itemB",
+                    "quantity": "2",
+                    "price": "900",
+                    "item_brand": "brandB",
+                    "item_variant": "varB"
+                },
+                {
+                    "item_id": "003",
+                    "item_name": "itemC",
+                    "quantity": "3",
+                    "price": "1000",
+                    "item_brand": "brandC",
+                    "item_variant": "varC"
+                },
+                {
+                    "item_id": "004",
+                    "item_name": "itemD",
+                    "quantity": "1",
+                    "price": "3400",
+                    "item_brand": "brandD",
+                    "item_variant": "varD"
                 }
             ]
         }
@@ -134,19 +158,45 @@ dataLayer.push(
                 "MC-ZZZ"
             ],
             "transaction_id": 5340655878402,
-            "value": "880",
+            "value": "9080",
             "currency": "JPY",
             "tax": "80",
             "shipping": "0",
             "items": [
                 {
-                    "id": "shopify_JP_7719303971074_43692121063682",
-                    "name": "3Dホワイトニングシート 14回分 - 14回分",
-                    "brand": "Lucille オンラインストア",
+                    "id": "001",
+                    "name": "itemA",
+                    "brand": "brandA",
                     "category": "",
                     "price": "880",
                     "quantity": 1,
-                    "variant": "14回分"
+                    "variant": "varA"
+                },
+                {
+                    "id": "002",
+                    "name": "itemB",
+                    "brand": "brandB",
+                    "category": "",
+                    "price": "900",
+                    "quantity": 2,
+                    "variant": "varB"
+                },
+                {
+                    "id": "003",
+                    "name": "itemC",
+                    "brand": "brandC",
+                    "category": "",
+                    "price": "1000",
+                    "quantity": 3,
+                    "variant": "varC"
+                },                {
+                    "id": "004",
+                    "name": "itemC",
+                    "brand": "brandC",
+                    "category": "",
+                    "price": "3400",
+                    "quantity": 1,
+                    "variant": "varC"
                 }
             ],
             "ignore_referrer": "true"
