@@ -2,7 +2,6 @@ function validateForm(form) {
     var test_name = form.elements['demo-name'].value;
     var test_email = form.elements['demo-email'].value;
     var test_dropDown = form.elements['demo-category'].value;
-    var test_radioButton = form.elements['demo-priority'].checked; 
     var test_checkBox = form.elements['demo-human'].checked
 
     if (test_name === "") {
@@ -13,9 +12,6 @@ function validateForm(form) {
       return false;
     } else if (test_dropDown === "") {
       alert("Select dropDown!");
-      return false;
-    } else if (!test_radioButton){
-      alert("Select radio button");
       return false;
     } else if (!test_checkBox){
       alert("Are you human???");
