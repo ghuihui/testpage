@@ -14,6 +14,31 @@
 		<script>
 			 window.dataLayer = window.dataLayer || [];
 		</script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11179993557"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'AW-999');
+		</script>
+		<!-- Event snippet for Page view conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+		function gtag_report_conversion(url) {
+		  var callback = function () {
+		    if (typeof(url) != 'undefined') {
+		      window.location = url;
+		    }
+		  };
+		  gtag('event', 'conversion', {
+		      'send_to': 'AW-999/ZZZ',
+		      'event_callback': callback
+		  });
+		  return false;
+		}
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -47,8 +72,8 @@
 						<ul class="icons">
 							<li><a href="generic_base.html" class="icon brands fa-twitter"><span class="label">generic_base</span></a></li>
 							<li><a href="elements.html" class="icon brands fa-facebook-f"><span class="label">elements</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://meesure.in" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a onclick="gtag_report_conversion('https://meesure.in');" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
