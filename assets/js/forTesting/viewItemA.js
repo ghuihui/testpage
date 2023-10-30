@@ -1,10 +1,5 @@
 dataLayer.push(
     {
-    'event':'view_item',
-    'currency':'JPY',
-    'value': 880
-    },
-    {
         "0": "event",
         "1": "view_item",
         "2": {
@@ -19,9 +14,44 @@ dataLayer.push(
         "3":{
                 "item":[{
                     "name":"itemA",
-                    "price":880
+                    "price":2000
                 }   
                 ]
             } 
     },
+      {
+          "ecommerce": {
+            "currencyCode": "JPY",
+            "detail": {
+                "actionField": {
+                    "list": "Apparel Gallery"
+                },
+                "products": [
+                    {
+                        "name": "itemA",
+                        "id": "1111",
+                        "price": "2000",
+                        "variant": "Black Gold"
+                    }
+                ]
+            }
+        }
+  },
+  {
+    "PageType": "Productpage",
+    "ProductID": "1111"
+  },
+  {
+    "event":"view_item",
+    "items": [
+            {
+                "id": "1111",
+                "name": "itemA",
+                "brand": "brandA",
+                "category": "",
+                "price": "2000",
+                "variant": null
+            }
+     ]
+  } 
 );
